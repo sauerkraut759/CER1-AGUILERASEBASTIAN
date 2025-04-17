@@ -1,0 +1,61 @@
+header {
+    background-image: url("../img/header.jpeg");
+    background-size:100%;
+    background-position: top left;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.img-header {
+    width: 100%;
+    height: auto;
+    visibility: hidden;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    background: linear-gradient(rgba(12,29,39, 1), rgba(12,29,39, .3) 90%, rgba(12,29,39, 0)99%);
+}
+
+
+.titulo {
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    color: white;
+}
+
+.subtitulo {
+    font-family: "Metamorphous", Arial;
+    font-weight: 400;
+    color: rgba(255, 255, 255, .25);
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #111;
+    height: 100%;
+}
+
+@media screen and (max-width:576px) {
+    .subtitulo {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    nav {
+        background: rgba(12,29,39, .9);
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    
+
+    .cont-plataforma {
+        height: 100px;
+    }
+    
+}

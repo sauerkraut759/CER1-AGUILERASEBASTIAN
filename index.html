@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOI Studios</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Metamorphous&display=swap" rel="stylesheet">
+    
+</head>
+<body class="bg-dark">
+    <header class="d-flex justify-content-center" id="header">
+        <img src="img/header.jpeg" class="img-header" id="imgHeader" alt="">
+        
+        <nav class="navbar navbar-expand-lg navbar-dark py-2 py-sm-3 fixed-top">
+            <div class="container-fluid d-lg-flex justify-content-lg-between">
+                <a href="#" class="navbar-brand">TOI Studios</a>
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#contenidoMenu"
+                        aria-controls="contenidoMenu"
+                        aria-expanded="false"
+                        aria-label="Mostrar/Ocultar Navegacion"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse flex-lg-grow-0" id="contenidoMenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <div class="texto-header align-self-end align-self-sm-center">
+            <h1 class="titulo display-1 text-center"> TOI Studios</h1>
+            <p class="lead subtitulo text-center">Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row py-2 mb-4">
+            <p class="h2 text-primary text-center mb-4">Lorem, ipsum dolor.</p>
+            <p class="text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae tempora nemo rerum similique beatae alias numquam, sequi nam ut tempore vitae animi eaque cupiditate dolorum. Error repellat aut est sit.</p>
+            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eum mollitia at dolores optio in! Quo maxime dolores natus, qui, fuga, quis deleniti adipisci maiores similique molestiae soluta! A aliquam officia optio quibusdam voluptas eveniet unde dignissimos numquam esse incidunt, atque natus animi totam dolorem, corporis at, vero maiores! Explicabo repellat eum deserunt hic eos obcaecati officia modi praesentium, aperiam aliquam autem neque iste vitae consequatur sit. Ea, dicta illo!</p>
+        </div>
+        <div class="row border-top border-bottom py-5 mb-4">
+            <div class="col-12 col-md-10 mx-auto">
+                <div id="slideshow" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner h-auto">
+                        <div class="carousel-item h-auto active">
+                            <img src="img/01.jpeg" alt="" class="w-100">
+                        </div>
+                        <div class="carousel-item h-auto">
+                            <img src="img/02.jpeg" alt="" class="w-100">
+                        </div>
+                        <div class="carousel-item h-auto">
+                            <img src="img/03.jpeg" alt="" class="w-100">
+                        </div>
+                        <div class="carousel-item h-auto">
+                            <img src="img/04.jpeg" alt="" class="w-100">
+                        </div>
+                    </div>
+
+                    <!-- controles carousel -->
+                    <button class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#slideshow"
+                            data-bs-slide="prev"
+                    >
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#slideshow"
+                            data-bs-slide="next"
+                    >
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+
+                    <!-- Indicadores -->
+                     <div class="carousel-indicators">
+                        <button type="button"
+                                data-bs-target="#slideshow"
+                                data-bs-slide-to="0"
+                                class="active"
+                                aria-current="true"
+                                aria-label="Slide #1"
+                        ></button>
+                        <button type="button"
+                                data-bs-target="#slideshow"
+                                data-bs-slide-to="1"
+                                aria-current="true"
+                                aria-label="Slide #2"
+                        ></button>
+                        <button type="button"
+                                data-bs-target="#slideshow"
+                                data-bs-slide-to="2"
+                                aria-current="true"
+                                aria-label="Slide #3"
+                        ></button>
+                        <button type="button"
+                                data-bs-target="#slideshow"
+                                data-bs-slide-to="3"
+                                aria-current="true"
+                                aria-label="Slide #4"
+                        ></button>
+                     </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <p class="h3 text-warning text-center mb-4"> Lorem ipsum dolor sit amet.</p>
+            <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum porro tempora ad sed, alias reprehenderit esse accusantium, consequuntur iste repellendus dolores odit ratione sequi mollitia odio exercitationem, numquam veniam! Molestiae deleniti sunt tempore cum delectus, quibusdam incidunt sed ut ipsum eaque officiis praesentium illum ipsam necessitatibus aliquam? Doloremque voluptatibus, adipisci consequatur nulla dicta harum alias saepe quod ipsa molestias doloribus corrupti possimus sint, officia mollitia illo esse similique nihil pariatur eaque fuga ducimus, fugiat minima dolorum. Accusantium laboriosam tempora rem voluptate nisi? Illum nulla reiciendis eum necessitatibus est? Maxime pariatur distinctio consectetur assumenda fugiat molestiae voluptas totam perspiciatis? Nisi, cumque.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center cont-plataforma">
+                    <img src="img/STEAM_logo.png" alt="" class="my-auto">
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center cont-plataforma">
+                    <img src="img/XBOXOne_logo.png" alt="" class="my-auto">
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center cont-plataforma">
+                    <img src="img/PS4_logo.png" alt="" class="my-auto">
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center cont-plataforma">
+                    <img src="img/NintendoSwitch_logo.png" alt="" class="my-auto">
+                </div>
+            </div>
+
+            <div class="row my-2">
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/resizeHeader.js"></script>
+</body>
+</html>
