@@ -47,6 +47,11 @@ nav {
     box-shadow: .5em .5em 4px rgba(0,0,0, .4);
 }
 
+.respuesta {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 footer {
     background-color: #111;
     height: 100%;
