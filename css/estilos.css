@@ -16,6 +16,10 @@ header {
 }
 
 nav {
+    background: rgba(12,29,39, .9);
+}
+
+.nav-gradient {
     background: linear-gradient(rgba(12,29,39, 1), rgba(12,29,39, .3) 90%, rgba(12,29,39, 0)99%);
 }
 
@@ -31,6 +35,16 @@ nav {
     font-weight: 400;
     color: rgba(255, 255, 255, .25);
     font-size: 1.5rem;
+}
+
+.titulo-secundario {
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+}
+
+.juego {
+    background-color: #424242;
+    box-shadow: .5em .5em 4px rgba(0,0,0, .4);
 }
 
 footer {
