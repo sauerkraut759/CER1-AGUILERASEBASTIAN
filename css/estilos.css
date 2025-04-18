@@ -52,29 +52,89 @@ nav {
     text-justify: inter-word;
 }
 
-footer {
-    background-color: #111;
-    height: 100%;
+.col-suscripcion {
+	border-right: 1px solid #dee2e6;
 }
 
-@media screen and (max-width:576px) {
-    .subtitulo {
-        font-size: 1rem;
+.input-correo {
+    background-color: #000;
+}
+
+.input-correo:focus {
+    background-color: #000;
+}
+
+.link-rrss {
+    font-size: 1.5em;
+}
+
+.link-rrss:hover {
+    color: rgba(255, 255, 255, .25);
+}
+
+.footer-contacto {
+    position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1030;
+}
+
+footer {
+    background-color: #111;
+    
+}
+
+@media screen and (max-width:1500px) {
+
+    .link-rrss {
+        font-size: 1.25em;
     }
+
+}
+
+@media screen and (max-width:1200px) {
+
+    .link-rrss {
+        font-size: 1em;
+    }
+
 }
 
 @media screen and (max-width:992px) {
     nav {
         background: rgba(12,29,39, .9);
     }
+
+    .link-rrss {
+        font-size: 1.25em;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:768px) {
 
-    
+    .footer-contacto {
+        position:inherit;
+    }
+
+    .col-suscripcion {
+        border-right:0;
+        border-bottom: 1px solid #dee2e6;
+    }
 
     .cont-plataforma {
         height: 100px;
     }
+
+    .link-rrss {
+        font-size: 1.5em;
+    }
     
+}
+
+@media screen and (max-width:576px) {
+    .subtitulo {
+        font-size: 1rem;
+    }
 }
